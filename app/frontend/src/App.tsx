@@ -1,8 +1,1 @@
-import Index from './pages/Index'
-import './App.css'
-
-function App() {
-  return <Index />
-}
-
-export default App
+https://iiagent941-rgb-sait-4ekv.bolt.host/
