@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "cd app/frontend && npm install && npm run build"
+  },
   "dependencies": {
     "playwright": "^1.57.0"
   }
