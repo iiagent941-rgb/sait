@@ -1,1 +1,7 @@
-https://iiagent941-rgb-sait-4ekv.bolt.host/
+import Index from './pages/Index';
+
+function App() {
+  return <Index />;
+}
+
+export default App;
