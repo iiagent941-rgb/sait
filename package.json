@@ -1,7 +1,7 @@
 {
   "scripts": {
     "install": "npm --prefix app/frontend install",
-    "build": "npm --prefix app/frontend run build",
+    "build": "npm --prefix app/frontend run build && rm -rf dist && cp -r app/frontend/dist dist",
     "start": "npm --prefix app/frontend run preview -- --host 0.0.0.0 --port 4173"
   },
   "dependencies": {
